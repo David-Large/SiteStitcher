@@ -48,8 +48,8 @@ collections_config:
     singular_key: null
     _editables: null
     _enabled_editors:
-      - content
       - visual
+      - content
     _inputs:
       title:
         label: Page Title
