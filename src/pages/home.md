@@ -52,7 +52,33 @@ hero:
   styles:
     color_group: primary
     backgroundOpacity: 50
-content_blocks: []
+content_blocks:
+  - _bookshop_name: sections/informationCards
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: asd
+          headline: heading
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      cards: []
+    styles:
+      color_group: primary
+      card_color_group: primary
+      cardBackground: true
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation
